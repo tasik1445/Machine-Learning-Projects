@@ -116,7 +116,7 @@ test/
 ![Grad-CAM and LIME Explanation](project_result/XAI_1.png)
 
 ### SHAP Explanation
-![SHAP Explanation](screenshots/XAI_2.png)
+![SHAP Explanation](project_result/XAI-2.png)
 
 ---
 
