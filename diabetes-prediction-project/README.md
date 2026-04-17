@@ -305,8 +305,8 @@ It should **not** be used as a substitute for professional medical diagnosis.
 ## 👨‍💻 Author
 
 **Tasikul Islam**  
-Information and Communication Engineering (ICE)  
-Daffodil International University
+📘 Information and Communication Engineering & AI Research
+🎓 Daffodil International University
 
 ### Interests
 - Machine Learning
