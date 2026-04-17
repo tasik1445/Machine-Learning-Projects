@@ -1,76 +1,83 @@
 # 🩺 Pneumonia Detection using Deep Learning, Machine Learning & Explainable AI (XAI)
 
-## 📌 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python">
+  <img src="https://img.shields.io/badge/TensorFlow-DeepLearning-orange?logo=tensorflow">
+  <img src="https://img.shields.io/badge/Scikit--Learn-ML-yellow?logo=scikitlearn">
+  <img src="https://img.shields.io/badge/XAI-GradCAM%20%7C%20LIME%20%7C%20SHAP-green">
+  <img src="https://img.shields.io/badge/Status-Completed-success">
+</p>
 
-This project presents an intelligent system for **automatic pneumonia detection** from chest X-ray images by combining:
+---
+
+## 🚀 Project Overview
+
+This project presents a **hybrid AI-based medical diagnosis system** for detecting pneumonia from chest X-ray images.
+
+Unlike traditional models, this system combines:
 
 * 🧠 Deep Learning (CNN)
 * 🤖 Machine Learning (RF, SVM, KNN)
 * 🔍 Explainable AI (Grad-CAM, LIME, SHAP)
 
-The goal is to **assist radiologists** by providing accurate predictions along with **visual explanations**, improving trust and interpretability in medical diagnosis.
+📌 The key strength is not only **high accuracy**, but also **interpretability**, making the system more reliable for healthcare applications.
 
 ---
 
-## 🎯 Objectives
+## 🧠 Model Architecture
 
-* Detect pneumonia from chest X-ray images
-* Improve classification accuracy using hybrid models
-* Provide explainable predictions using XAI techniques
-* Build a user-friendly inference system
+```id="arch1"
+Input Image
+     ↓
+   CNN (Feature Extraction)
+     ↓
+ Feature Vector (Dense Layer)
+     ↓
+ ┌───────────────┬───────────────┬───────────────┐
+ │ Random Forest │     SVM       │     KNN       │
+ └───────────────┴───────────────┴───────────────┘
+     ↓
+ Majority Voting
+     ↓
+ Final Prediction (PNEUMONIA / NORMAL)
+     ↓
+ Explainable AI (Grad-CAM + LIME + SHAP)
+```
 
 ---
 
-## 🧠 Methodology
+## 🎯 Key Features
 
-### 🔹 1. Deep Learning (CNN)
-
-* A custom **22-layer Convolutional Neural Network**
-* Extracts high-level image features
-* Trained using chest X-ray dataset
-
-### 🔹 2. Feature Extraction
-
-* Intermediate CNN layer (`feature_dense`) used as feature vector
-* Generates meaningful representations for ML models
-
-### 🔹 3. Machine Learning Models
-
-* 🌲 Random Forest (RF)
-* 📈 Support Vector Machine (SVM)
-* 📍 K-Nearest Neighbors (KNN)
-
-These models classify extracted features for improved performance.
-
-### 🔹 4. Hybrid Model
-
-* CNN + ML combination
-* Final decision using **majority voting**
+* ✅ Custom 22-layer CNN architecture
+* ✅ Hybrid CNN + ML classification
+* ✅ Majority voting system
+* ✅ Fully integrated Explainable AI (XAI)
+* ✅ Separate training & inference pipelines
+* ✅ Ready for deployment
 
 ---
 
 ## 🔍 Explainable AI (XAI)
 
-### 🔥 Grad-CAM
-
-* Highlights infected regions in the lungs
-* Shows where the CNN is focusing
-
-### 🧩 LIME
-
-* Explains prediction using superpixel segmentation
-* Identifies important regions influencing the decision
-
-### 📊 SHAP
-
-* Explains feature contributions
-* Provides model interpretability at feature level
+| Method      | Purpose                           |
+| ----------- | --------------------------------- |
+| 🔥 Grad-CAM | Highlights infected lung regions  |
+| 🧩 LIME     | Explains important image segments |
+| 📊 SHAP     | Shows feature contribution        |
 
 ---
 
 ## 📂 Dataset
+
+Dataset used in this project:
 This project uses the **Chest X-ray Pneumonia Dataset** from Kaggle:
 🔗 [Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+
+**Details:**
+
+* Total Images: 5,856
+* Classes: NORMAL, PNEUMONIA
+* Format: JPEG
 
 * Chest X-ray dataset (Pneumonia vs Normal)
 * Structured as:
@@ -91,9 +98,22 @@ test/
 
 ---
 
+
+## 🖼️ Sample Visualization (Add Your Images)
+
+> 💡 Replace with your generated outputs
+
+```id="img1"
+- Grad-CAM Heatmap
+- LIME Explanation
+- SHAP Visualization
+```
+
+---
+
 ## ⚙️ Technologies Used
 
-* Python 🐍
+* Python
 * TensorFlow / Keras
 * Scikit-learn
 * OpenCV / PIL
@@ -105,7 +125,7 @@ test/
 
 ## 📁 Project Structure
 
-```
+```id="tree1"
 Research_base_Model/
 │
 ├── training_notebook.ipynb
@@ -123,70 +143,92 @@ Research_base_Model/
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-### 🔹 Step 1: Train Model
+### 🔹 1. Clone Repository
 
-* Run `training_notebook.ipynb`
-* Save trained models
+```bash id="cmd1"
+git clone https://github.com/your-username/pneumonia-xai-project.git
+cd pneumonia-xai-project
+```
 
-### 🔹 Step 2: Prediction + XAI
+---
 
-* Open `pneumonia_xai_prediction.ipynb`
-* Load saved models
-* Run:
+### 🔹 2. Install Dependencies
 
-```python
-user_predict_and_explain("image_path")
+```bash id="cmd2"
+pip install -r requirements.txt
+```
+
+---
+
+### 🔹 3. Run Prediction
+
+```python id="cmd3"
+user_predict_and_explain("path_to_xray_image")
 ```
 
 ---
 
 ## 📊 Output
 
-The system provides:
-
-* ✅ Pneumonia / Normal prediction
-* 📊 CNN + RF + SVM + KNN results
-* 🔥 Grad-CAM heatmap
-* 🧩 LIME explanation
-* 📊 SHAP feature importance
+✔ Prediction (PNEUMONIA / NORMAL)
+✔ Model comparison (CNN + RF + SVM + KNN)
+✔ Grad-CAM heatmap
+✔ LIME explanation
+✔ SHAP feature importance
 
 ---
 
-## 🧠 Key Contributions
+## 🧪 Results Summary
 
-* Hybrid CNN + ML architecture
-* High accuracy classification
-* Integrated Explainable AI
-* User-level prediction interface
-
----
-
-## 📌 Applications
-
-* Clinical decision support
-* Medical image analysis
-* AI-assisted diagnosis systems
+| Model     | Accuracy        |
+| --------- | --------------- |
+| CNN       | ~97%            |
+| CNN + SVM | ~97%            |
+| CNN + RF  | **~99% (Best)** |
+| CNN + KNN | ~96%            |
 
 ---
 
-## 🎓 Future Work
+## 💡 Applications
 
-* Deploy as web application (Streamlit)
-* Use larger datasets
-* Improve real-time inference
-* Integrate more advanced XAI methods
+* 🏥 Clinical diagnosis support
+* 🤖 AI-assisted radiology
+* 📊 Medical imaging research
+* 🎓 Academic projects
+
+---
+
+## 🔮 Future Improvements
+
+* 🌐 Deploy using Streamlit / Flask
+* 📱 Mobile-based diagnosis system
+* 📊 Larger dataset integration
+* ⚡ Real-time inference
 
 ---
 
 ## 👨‍💻 Author
 
-Developed as part of research-based machine learning project.
+**Tasikul Islam**
+🎓 Daffodil International University
+📘 Information and Communication Engineering & AI Research
+
+---
+
+## ⭐ Support
+
+If you found this project helpful:
+⭐ Star this repository
+🔁 Share with others
 
 ---
 
 ## 📜 License
 
-This project is for academic and research purposes only.
+This project is for **educational and research purposes only**.
+
+
+
 
