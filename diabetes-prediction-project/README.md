@@ -149,10 +149,10 @@ It provides a clearer understanding of which features increase or decrease diabe
 > Place the images inside a `screenshots/` folder in your GitHub repository.
 
 ### Patient Input Form
-![Patient Input Form](screenshots/diabetes_input.png)
+![Patient Input Form](/diabetes_input.png)
 
 ### Console Prediction Output
-![Prediction Output](screenshots/diabetes_output.png)
+![Prediction Output](diabetes_output.png)
 
 ### Prediction Results Table
 ![Prediction Results](screenshots/prediction_results.png)
