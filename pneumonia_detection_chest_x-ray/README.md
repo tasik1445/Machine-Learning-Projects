@@ -99,15 +99,24 @@ test/
 ---
 
 
-## 🖼️ Sample Visualization (Add Your Images)
+## 🖼️ Sample Visualization 
 
 > 💡 Replace with your generated outputs
 
-```id="img1"
-- Grad-CAM Heatmap
-- LIME Explanation
-- SHAP Visualization
-```
+### ML and DL Model Ensemble
+![ML and DL Model Ensemble](project_result/ML_DL_Ensemble.png)
+
+### Accuracy and Loss
+![Accuracy and Loss](project_result/Accuracy_Loss.png)
+
+### ROC
+![ROC](project_result/ROC.png)
+
+### Grad-CAM and LIME Explanation
+![Grad-CAM and LIME Explanation](project_result/XAI_1.png)
+
+### SHAP Explanation
+![SHAP Explanation](screenshots/XAI_2.png)
 
 ---
 
