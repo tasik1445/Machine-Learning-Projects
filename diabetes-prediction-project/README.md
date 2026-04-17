@@ -144,7 +144,7 @@ It provides a clearer understanding of which features increase or decrease diabe
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Results Screenshot
 
 > Place the images inside a `screenshots/` folder in your GitHub repository.
 
