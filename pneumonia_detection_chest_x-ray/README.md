@@ -104,19 +104,19 @@ test/
 > 💡 Replace with your generated outputs
 
 ### ML and DL Model Ensemble
-![ML and DL Model Ensemble](project_result/ML_DL_Ensemble.png)
+![ML and DL Model Ensemble](project_result/ML_DL_Ensemble.jpeg)
 
 ### Accuracy and Loss
-![Accuracy and Loss](project_result/Accuracy_Loss.png)
+![Accuracy and Loss](project_result/Accuracy_Loss.jpeg)
 
 ### ROC
-![ROC](project_result/ROC.png)
+![ROC](project_result/ROC.jpeg)
 
 ### Grad-CAM and LIME Explanation
-![Grad-CAM and LIME Explanation](project_result/XAI_1.png)
+![Grad-CAM and LIME Explanation](project_result/XAI_1.jpeg)
 
 ### SHAP Explanation
-![SHAP Explanation](project_result/XAI-2.png)
+![SHAP Explanation](project_result/XAI-2.jpeg)
 
 ---
 
