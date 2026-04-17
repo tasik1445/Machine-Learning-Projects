@@ -221,9 +221,8 @@ user_predict_and_explain("path_to_xray_image")
 ## 👨‍💻 Author
 
 **Tasikul Islam**
-🎓 Daffodil International University
 📘 Information and Communication Engineering & AI Research
-
+🎓 Daffodil International University
 ---
 
 ## ⭐ Support
