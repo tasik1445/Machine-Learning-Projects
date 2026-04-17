@@ -149,19 +149,19 @@ It provides a clearer understanding of which features increase or decrease diabe
 > Place the images inside a `screenshots/` folder in your GitHub repository.
 
 ### Patient Input Form
-![Patient Input Form](/diabetes_input.png)
+![Patient Input Form](project_result/diabetes_input.png)
 
 ### Console Prediction Output
-![Prediction Output](diabetes_output.png)
+![Prediction Output](project_result/diabetes_output.png)
 
 ### Prediction Results Table
-![Prediction Results](screenshots/prediction_results.png)
+![Prediction Results](project_result/diabetes_1.png)
 
 ### LIME Explanation
-![LIME Explanation](screenshots/lime_explanation.png)
+![LIME Explanation](project_result/diabetes_2.png)
 
 ### SHAP Waterfall Plot
-![SHAP Waterfall](screenshots/shap_waterfall.png)
+![SHAP Waterfall](project_result/diabetes_3.png)
 
 ---
 
