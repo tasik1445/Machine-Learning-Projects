@@ -69,6 +69,8 @@ These models classify extracted features for improved performance.
 ---
 
 ## 📂 Dataset
+This project uses the **Chest X-ray Pneumonia Dataset** from Kaggle:
+🔗 [Chest X-ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 * Chest X-ray dataset (Pneumonia vs Normal)
 * Structured as:
