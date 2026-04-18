@@ -311,11 +311,11 @@ It is **not intended for real clinical diagnosis or medical decision-making**.
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **Tasikul Islam**  
-Information and Communication Engineering (ICE)  
-Daffodil International University
+📘 Information and Communication Engineering & AI Research
+🎓 Daffodil International University
 
 ### Interests
 - Machine Learning
@@ -323,12 +323,7 @@ Daffodil International University
 - Computer Vision
 - Natural Language Processing
 - Research
-
-### Connect
-- GitHub: `your-github-link`
-- LinkedIn: `your-linkedin-link`
-- Email: `your-email@example.com`
-
+  
 ---
 
 ## Support
