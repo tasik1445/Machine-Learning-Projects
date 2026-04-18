@@ -314,7 +314,7 @@ It is **not intended for real clinical diagnosis or medical decision-making**.
 ## Author
 
 **Tasikul Islam**  
-Final-year undergraduate student in Information and Communication Engineering (ICE)  
+Information and Communication Engineering (ICE)  
 Daffodil International University
 
 ### Interests
